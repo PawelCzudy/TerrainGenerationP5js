@@ -19,8 +19,9 @@ function setup() {
 function draw() {
 
   // pink ambient lighting for the mood ( ͡° ͜ʖ ͡°)
-  pointLight(255, 255, 255, 0, 0, 1000);
-  ambientLight(244, 122, 158);
+
+  pointLight(255, 255, 255, 0, 0,1000);
+  ambientLight(244,122,158 );
 
   // increasing the y-offset for every draw()
   flying -= 0.2;
@@ -45,7 +46,7 @@ function draw() {
 
   background(0);
   stroke(255);
-  fill(255);
+  fill(0);
 
   // drawing the grid with TRIANGLE_STRIP
   for(let y=0; y<cols; y++){
